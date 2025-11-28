@@ -28,6 +28,7 @@ A backend API for managing employees and tasks, built for the ProU Technology In
     Create a `.env` file in the root directory and add the following variables. Replace the values with your own.
     ```
     MONGO_URI=mongodb://localhost:27017/task_management
+    PORT=4000
     JWT_SECRET=your_jwt_secret_key
     ```
 
@@ -39,11 +40,11 @@ A backend API for managing employees and tasks, built for the ProU Technology In
     ```bash
     npm run dev
     ```
-    The server will be running on `http://localhost:5000`.
+    The server will be running on `http://localhost:4000`.
 
 ## API Endpoints
 
-**Base URL**: `http://localhost:5000/api`
+**Base URL**: `http://localhost:4000/api`
 
 ### Authentication
 
