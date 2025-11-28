@@ -1,0 +1,22 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "description": "A backend API for managing employees and tasks.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0"
+  }
+}
